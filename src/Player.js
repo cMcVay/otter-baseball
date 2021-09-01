@@ -8291,7 +8291,6 @@ const rawPlayers = [
 
 const injuredList = [
     "Ronald Acuna Jr.",
-    "Xander Bogaerts",
     "Nick Madrigal",
     "Jesse Winker",
     "Shane Bieber",
