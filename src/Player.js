@@ -8291,6 +8291,7 @@ const rawPlayers = [
 
 const injuredList = [
     "Ronald Acuna Jr.",
+    "Xander Bogaerts",
     "Nick Madrigal",
     "Jesse Winker",
     "Shane Bieber",
@@ -8367,7 +8368,7 @@ const calculateGames = (array) =>{
 };
 
 const toggleInjured = (array, injured, reserved) => {
-    const updateArray = array.map((player => {
+    const updateArray = [...array].map((player => {
       if (injured.includes(player.profile.name)) {
         player.profile.activity= "injured";
       }
@@ -8379,12 +8380,11 @@ const toggleInjured = (array, injured, reserved) => {
       }
       return player;
     }))
-    console.log(updateArray);
     return updateArray;
   }
 
 const adjustPlayers = (array) => {
-  const newArray = array.map(player => {
+  const newArray = [...array].map(player => {
     player.stats.AVG = calculateAVG(player.stats.gameLog);
     player.stats.OPdiff = calculateTotalLT(player.stats.gameLog);
     player.stats.TotalOP = calculateTotals(player.stats.gameLog);

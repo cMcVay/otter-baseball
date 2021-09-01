@@ -246,7 +246,19 @@ const getBatStats = (teams, id, week) => {
         return BatStats.push(player);
       };
       return false;
-    })
+    });
+    teamCall[0].playerList.hitters.injured.map(player => {
+        if (player.stats.gameLog.some(game => game.SP === week)) {
+          return BatStats.push(player);
+        };
+        return false;
+      });
+      teamCall[0].playerList.hitters.reserved.map(player => {
+        if (player.stats.gameLog.some(game => game.SP === week)) {
+          return BatStats.push(player);
+        };
+        return false;
+      });
     return BatStats;
 }
 const getPitchStats = (teams, id, week) => {
@@ -263,8 +275,19 @@ const getPitchStats = (teams, id, week) => {
         return PitchStats.push(player);
       };
       return false;
-    })
-    console.log(PitchStats);
+    });
+    teamCall[0].playerList.pitchers.injured.map(player => {
+        if (player.stats.gameLog.some(game => game.SP === week)) {
+          return PitchStats.push(player);
+        };
+        return false;
+      });
+      teamCall[0].playerList.pitchers.reserved.map(player => {
+        if (player.stats.gameLog.some(game => game.SP === week)) {
+          return PitchStats.push(player);
+        };
+        return false;
+      });
     return PitchStats;
 }
 

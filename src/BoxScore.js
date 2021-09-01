@@ -17,6 +17,7 @@ const BoxScore = (period, teamA) => {
     }
     return (
         <>
+            {console.log(teams)}
             <h3>Scoring Period {ScoringPeriod.week}</h3>
             {MatchUps.map(game => 
                 <div key={`${game.Away}${game.Home}${period}`}>
