@@ -209,7 +209,7 @@ const rawTeams = [
 
 const addRosters = (array, players) => {
     const newArray = [...array].map(club => {
-        const thisTeam = players.filter(player => (player.profile.team === club.profile.name));
+        const thisTeam = [...players].filter(player => (player.profile.team === club.profile.name));
         const thisTeamHitters = [...thisTeam].filter(player => (player.profile.posGroup === "IF" || player.profile.posGroup === "OF"));
         const thisTeamPitchers = [...thisTeam].filter(player => (player.profile.posGroup === "SP" || player.profile.posGroup === "RP"))
         club.playerList.hitters.inField = thisTeam.filter(player => (player.profile.activity === "active" && player.profile.posGroup === "IF"));
