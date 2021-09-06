@@ -95,6 +95,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 0,
                     SP: 12
+                },
+                {
+                    line: "3-4, 1 HR, 4 RBI",
+                    day: 8,
+                    OP: 3,
+                    OPPF: 1,
+                    SP: 17
                 }
             ],
             AVG: 0,
@@ -220,6 +227,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 1,
                     SP: 16
+                },
+                {
+                    line: "2-5, 2 HR, 2 RBI",
+                    day: 2,
+                    OP: 3,
+                    OPPF: 1,
+                    SP: 17
                 }
             ],
             AVG: 0,
@@ -629,6 +643,12 @@ const rawPlayers = [
                     OP: 4,
                     SP: 15
                 },
+                {
+                    line: "7 IP, 4 H, 1 ER, 0 BB, 15 K",
+                    day: 5,
+                    OP: 8,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -737,6 +757,12 @@ const rawPlayers = [
                     day: 9,
                     OP: 0,
                     SP: 16
+                },
+                {
+                    line: "1 IP, 0 H, 0 ER, 0 BB, 2 K, SV",
+                    day: 4,
+                    OP: 4,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -972,6 +998,13 @@ const rawPlayers = [
                     OPPF: 1,
                     SP: 16
                 },
+                {
+                    line: "3-3, 1 2B, 1 HR, 3 RBI, 1 BB",
+                    day: 1,
+                    OP: 4,
+                    OPPF: 2,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -1156,6 +1189,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 16
                 },
+                {
+                    line: "3-4, 1 HR, 4 RBI, 1 BB, 1 SB",
+                    day: 6,
+                    OP: 4,
+                    OPPF: 2,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -1189,6 +1229,13 @@ const rawPlayers = [
                     OP: 2,
                     OPPF: 0,
                     SP: 14
+                },
+                {
+                    line: "3-4, 1 HR, 1 RBI",
+                    day: 5,
+                    OP: 2,
+                    OPPF: 0,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -1235,6 +1282,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 1,
                     SP: 16
+                },
+                {
+                    line: "1-1, 1 3B, 2 RBI",
+                    day: 8,
+                    OP: 1,
+                    OPPF: 0,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -1336,6 +1390,12 @@ const rawPlayers = [
                     day: 4,
                     OP: 4,
                     SP: 16
+                },
+                {
+                    line: "1 IP, 1 H, 0 ER, 0 BB, 1 K, SV",
+                    day: 6,
+                    OP: 3,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -1604,6 +1664,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 16
                 },
+                {
+                    line: "2-4, 1 2B, 1 HR, 2 RBI",
+                    day: 8,
+                    OP: 2,
+                    OPPF: 1,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -1700,6 +1767,13 @@ const rawPlayers = [
                     OP: 1,
                     OPPF: 0,
                     SP: 15
+                },
+                {
+                    line: "2-4, 2 HR, 3 RBI, 2 K",
+                    day: 3,
+                    OP: 2,
+                    OPPF: 1,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -1852,6 +1926,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 1,
                     SP: 16
+                },
+                {
+                    line: "3-5, 1 2B, 2 RBI, 1 BB",
+                    day: 4,
+                    OP: 2,
+                    OPPF: 1,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -2078,6 +2159,12 @@ const rawPlayers = [
                     OP: 3,
                     SP: 13
                 },
+                {
+                    line: "1 IP, 1 H, 0 ER, 0 BB, 2 K, SV",
+                    day: 1,
+                    OP: 4,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -2268,6 +2355,12 @@ const rawPlayers = [
                     OP: 3,
                     SP: 16
                 },
+                {
+                    line: "1 IP, 2 H, 0 ER, 0 BB, 3 K, SV",
+                    day: 4,
+                    OP: 4,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -2367,6 +2460,12 @@ const rawPlayers = [
                     OP: 10,
                     SP: 14
                 },
+                {
+                    line: "6 IP, 5 H, 4 ER, 4 BB, 4 K",
+                    day: 3,
+                    OP: 1,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -2440,6 +2539,13 @@ const rawPlayers = [
                     OP: 4,
                     OPPF: 2,
                     SP: 16
+                },
+                {
+                    line: "1-3, 1 HR, 1 RBI, 1 BB, 1 K, 1 SB",
+                    day: 5,
+                    OP: 1,
+                    OPPF: 0,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -2721,6 +2827,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 7
                 },
+                {
+                    line: "3-5, 1 2B, 1 HR, 4 RBI",
+                    day: 8,
+                    OP: 4,
+                    OPPF: 3,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -2810,6 +2923,13 @@ const rawPlayers = [
                     OP: 2,
                     OPPF: 0,
                     SP: 16
+                },
+                {
+                    line: "3-4, 1 HR, 2 RBI, 1 BB, 1 K",
+                    day: 7,
+                    OP: 2,
+                    OPPF: 1,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -2914,6 +3034,13 @@ const rawPlayers = [
                     OP: 5,
                     OPPF: 3,
                     SP: 15
+                },
+                {
+                    line: "2-3, 1 HR, 4 RBI, 2 BB",
+                    day: 8,
+                    OP: 4,
+                    OPPF: 3,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -3151,6 +3278,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 16
                 },
+                {
+                    line: "3-3, 1 BB, 1 SB",
+                    day: 1,
+                    OP: 1,
+                    OPPF: 0,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -3253,6 +3387,13 @@ const rawPlayers = [
                     OP: 2,
                     OPPF: 0,
                     SP: 16
+                },
+                {
+                    line: "2-4, 2 HR, 3 RBI",
+                    day: 2,
+                    OP: 3,
+                    OPPF: 2,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -3540,6 +3681,12 @@ const rawPlayers = [
                     OP: 2,
                     SP: 16
                 },
+                {
+                    line: "1.2 IP, 1 H, 0 ER, 0 BB, 2 K, SV",
+                    day: 5,
+                    OP: 5,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -3637,6 +3784,12 @@ const rawPlayers = [
                     OP: 5,
                     SP: 15
                 },
+                {
+                    line: "1 IP, 0 H, 0 ER, 0 BB, 2 K, SV",
+                    day: 3,
+                    OP: 4,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -3662,6 +3815,13 @@ const rawPlayers = [
                     OP: 1,
                     OPPF: 0,
                     SP: 16
+                },
+                {
+                    line: "1-2, 1 HR, 3 RBI, 1 BB",
+                    day: 9,
+                    OP: 2,
+                    OPPF: 1,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -3847,6 +4007,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 14
                 },
+                {
+                    line: "3-4, 1 2B, 1 HR, 5 RBI, 1 BB, 1 K",
+                    day: 2,
+                    OP: 4,
+                    OPPF: 3,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -4013,6 +4180,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 15
                 },
+                {
+                    line: "1-3, 1 HR, 3 RBI, 1 BB",
+                    day: 8,
+                    OP: 2,
+                    OPPF: 1,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -4129,6 +4303,12 @@ const rawPlayers = [
                     day: 7,
                     OP: 5,
                     SP: 16
+                },
+                {
+                    line: "6 IP, 5 H, 1 ER, 3 BB, 8 K",
+                    day: 4,
+                    OP: 4,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -4530,6 +4710,13 @@ const rawPlayers = [
                     OPPF: 1,
                     SP: 15 
                 },
+                {
+                    line: "2-5, 1 2B, 1 HR, 1 RBI, 1 K",
+                    day: 2,
+                    OP: 1,
+                    OPPF: 0,
+                    SP: 17 
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -4717,6 +4904,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 16
                 },
+                {
+                    line: "2-4, 1 HR, 3 RBI, 1 K",
+                    day: 3,
+                    OP: 2,
+                    OPPF: 1,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -4834,6 +5028,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 0,
                     SP: 16
+                },
+                {
+                    line: "3-4, 1 2B, 1 HR, 2 RBI",
+                    day: 1,
+                    OP: 3,
+                    OPPF: 2,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -5024,6 +5225,12 @@ const rawPlayers = [
                     OP: 3,
                     SP: 16
                 },
+                {
+                    line: "1 IP, 0 H, 0 ER, 0 BB, 1 K, SV",
+                    day: 5,
+                    OP: 3,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -5066,6 +5273,12 @@ const rawPlayers = [
                     day: 7,
                     OP: 3,
                     SP: 16
+                },
+                {
+                    line: "1 IP, 0 H, 0 ER, 1 BB, 1 K, HLD",
+                    day: 3,
+                    OP: 3,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -5128,6 +5341,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 16
                 },
+                {
+                    line: "2-2, 2 HR, 3 RBI, 2 BB",
+                    day: 5,
+                    OP: 4,
+                    OPPF: 3,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -5175,6 +5395,13 @@ const rawPlayers = [
                     OP: 4,
                     OPPF: 2,
                     SP: 15
+                },
+                {
+                    line: "2-5, 2 HR, 3 RBI, 1 K",
+                    day: 7,
+                    OP: 3,
+                    OPPF: 2,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -5251,6 +5478,13 @@ const rawPlayers = [
                     OP: 1,
                     OPPF: 0,
                     SP: 15
+                },
+                {
+                    line: "2-4, 1 HR, 3 RBI",
+                    day: 8,
+                    OP: 2,
+                    OPPF: 1,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -5401,6 +5635,12 @@ const rawPlayers = [
                     day: 2,
                     OP: 6,
                     SP: 15
+                },
+                {
+                    line: "6.1 IP, 6 H, 3 ER, 2 BB, 9 K",
+                    day: 7,
+                    OP: 3,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -5730,6 +5970,13 @@ const rawPlayers = [
                     OPPF: 2,
                     SP: 16
                 },
+                {
+                    line: "2-3, 1 2B, 1 HR, 2 RBI, 1 BB",
+                    day: 2,
+                    OP: 3,
+                    OPPF: 1,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -5848,6 +6095,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 14
                 },
+                {
+                    line: "2-4, 2 HR, 4 RBI",
+                    day: 3,
+                    OP: 4,
+                    OPPF: 2,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -5965,6 +6219,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 1,
                     SP: 15
+                },
+                {
+                    line: "3-5, 1 2B, 1 HR, 3 RBI",
+                    day: 9,
+                    OP: 3,
+                    OPPF: 1,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -6308,6 +6569,12 @@ const rawPlayers = [
                     OP: 4,
                     SP: 16
                 },
+                {
+                    line: "1 IP, 0 H, 0 ER, 0 BB, 2 K, SV",
+                    day: 4,
+                    OP: 4,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -6405,6 +6672,12 @@ const rawPlayers = [
                     OP: 4,
                     SP: 15
                 },
+                {
+                    line: "1 IP, 0 H, 0 ER, 0 BB, 1 K, HLD",
+                    day: 4,
+                    OP: 3,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -6458,6 +6731,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 1,
                     SP: 16
+                },
+                {
+                    line: "2-5, 1 HR, 1 RBI, 1 K",
+                    day: 1,
+                    OP: 1,
+                    OPPF: 0,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -6603,6 +6883,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 16
                 },
+                {
+                    line: "1-4, 1 HR, 2 RBI",
+                    day: 6,
+                    OP: 1,
+                    OPPF: 0,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -6747,6 +7034,13 @@ const rawPlayers = [
                     OPPF: 1,
                     SP: 13
                 },
+                {
+                    line: "2-4, 1 2B, 1 HR, 3 RBI, 2 BB",
+                    day: 4,
+                    OP: 4,
+                    OPPF: 2,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -6815,6 +7109,12 @@ const rawPlayers = [
                     day: 2,
                     OP: 2,
                     SP: 15
+                },
+                {
+                    line: "5 IP, 4 H, 2 ER, 1 BB, 7 K",
+                    day: 5,
+                    OP: 2,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -7025,6 +7325,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 0,
                     SP: 16
+                },
+                {
+                    line: "3-4, 2 2B, 1 RBI, 1 BB, 1 K",
+                    day: 8,
+                    OP: 2,
+                    OPPF: 0,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -7386,6 +7693,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 16
                 },
+                {
+                    line: "3-4, 1 3B, 1 HR, 1 RBI, 1 K",
+                    day: 8,
+                    OP: 2,
+                    OPPF: 0,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -7454,6 +7768,13 @@ const rawPlayers = [
                     OP: 1,
                     OPPF: 0,
                     SP: 16
+                },
+                {
+                    line: "2-4, 1 HR, 4 RBI, 1 K, 1 SB",
+                    day: 6,
+                    OP: 3,
+                    OPPF: 0,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -7644,6 +7965,12 @@ const rawPlayers = [
                     OP: 4,
                     SP: 15
                 },
+                {
+                    line: "1 IP, 0 H, 0 ER, 1 BB, 3 K, SV",
+                    day: 5,
+                    OP: 4,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -7782,6 +8109,13 @@ const rawPlayers = [
                     OPPF: 0,
                     SP: 16
                 },
+                {
+                    line: "2-4, 1 2B, 1 HR, 2 RBI",
+                    day: 5,
+                    OP: 2,
+                    OPPF: 0,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -7857,6 +8191,13 @@ const rawPlayers = [
                     OP: 2,
                     OPPF: 0,
                     SP: 16
+                },
+                {
+                    line: "2-3, 1 HR, 2 RBI, 2 BB",
+                    day: 3,
+                    OP: 3,
+                    OPPF: 0,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -8001,6 +8342,13 @@ const rawPlayers = [
                     OP: 3,
                     OPPF: 0,
                     SP: 16
+                },
+                {
+                    line: "2-3, 2 HR, 6 RBI, 1 BB",
+                    day: 5,
+                    OP: 5,
+                    OPPF: 2,
+                    SP: 17
                 },
             ],
             AVG: 0,
@@ -8163,6 +8511,12 @@ const rawPlayers = [
                     OP: 5,
                     SP: 16
                 },
+                {
+                    line: "7 IP, 4 H, 2 ER, 2 BB, 5 K",
+                    day: 4,
+                    OP: 4,
+                    SP: 17
+                },
             ],
             AVG: 0,
             TotalOP: 0,
@@ -8236,6 +8590,12 @@ const rawPlayers = [
                     day: 2,
                     OP: 5,
                     SP: 16
+                },
+                {
+                    line: "2 IP, 0 H, 0 ER, 0 BB, 4 K",
+                    day: 9,
+                    OP: 5,
+                    SP: 17
                 },
             ],
             AVG: 0,
