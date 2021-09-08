@@ -3574,6 +3574,25 @@ const rawPlayers = [
     },
     {
         profile: {
+            name: "Robbie Ray",
+            pos: "SP",
+            posGroup: "SP",
+            MLBteam: "Toronto Blue Jays",
+            MLBteamAbbrev: "TOR",
+            team: "Magic Manatees",
+            teamAbbrev: "MT",
+            id: 123
+        },
+        stats: {
+            gameLog: [
+            ],
+            AVG: 0,
+            TotalOP: 0,
+            games: 0
+        }
+    },
+    {
+        profile: {
             name: "Liam Hendriks",
             pos: "RP",
             posGroup: "RP",
@@ -8667,7 +8686,8 @@ const injuredList = [
     "Drew Pomeranz",
     "Jordan Hicks",
     "Cavan Biggio",
-    "Stephen Strasburg"
+    "Stephen Strasburg",
+    "Lucas Giolito"
 ];
 const reservedList = [
     "Marcell Ozuna",
