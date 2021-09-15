@@ -9035,7 +9035,6 @@ const injuredList = [
     "Jesse Winker",
     "Shane Bieber",
     "Rafael Montero",
-    "Adalberto Mondesi",
     "Greg Holland",
     "Mike Trout",
     "Anthony Rendon",
@@ -9045,9 +9044,7 @@ const injuredList = [
     "Drew Pomeranz",
     "Jordan Hicks",
     "Cavan Biggio",
-    "Stephen Strasburg",
-    "Lucas Giolito",
-    "Tim Anderson"
+    "Stephen Strasburg"
 ];
 const reservedList = [
     "Marcell Ozuna",
@@ -9067,7 +9064,10 @@ const reservedList = [
     "Andrew Benintendi",
     "Mark Canha",
     "A.J. Puk",
-    "Freddy Peralta"
+    "Freddy Peralta",
+    "Trevor Story",
+    "Austin Riley",
+    "Lucas Giolito"
 ];
 
 const calculateAVG = (array) => {
