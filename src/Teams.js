@@ -70,7 +70,8 @@ const rawTeams = [
             winLoss: [0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1],
             wins: 11,
             loss: 8,
-            tiebreak: [0, 0, 3, 3, 2, 3]
+            tiebreak: [0, 0, 3, 3, 2, 3],
+            FA: 3
         }
     },
     {
@@ -103,7 +104,8 @@ const rawTeams = [
             winLoss: [1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0],
             wins: 8,
             loss: 11,
-            tiebreak: [1, 1, 0, 2, 2, 2]
+            tiebreak: [1, 1, 0, 2, 2, 2],
+            SA: 2
         }
     },
     {
@@ -136,7 +138,8 @@ const rawTeams = [
             winLoss: [0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0],
             wins: 8,
             loss: 11,
-            tiebreak: [1, 1, 2, 0, 3, 1]
+            tiebreak: [1, 1, 2, 0, 3, 1],
+            CC: 2
         }
     },
     {
@@ -202,7 +205,8 @@ const rawTeams = [
             winLoss: [1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0],
             wins: 11,
             loss: 8,
-            tiebreak: [3, 0, 2, 3, 3, 0]
+            tiebreak: [3, 0, 2, 3, 3, 0],
+            MB: 0
         }
     },
 ];
