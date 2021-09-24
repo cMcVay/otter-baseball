@@ -1,10 +1,10 @@
 import {teams} from "./Teams";
 
 function compareFunction(a,b) {
-    if (a.record.wins > b.record.wins) {
+    if (a.record.wins < b.record.wins) {
         return -1
     };
-    if (a.record.wins < b.record.wins) {
+    if (a.record.wins > b.record.wins) {
         return 1
     };
     if (a.record.wins === b.record.wins) {
