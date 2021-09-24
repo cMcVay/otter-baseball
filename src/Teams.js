@@ -17,11 +17,11 @@ const rawTeams = [
             id: 0
         },
         stats: {
-            opPerWeek: [12, 14, 11, 8, 10, 11, 10, 5, 14, 12, 15, 13, 13, 13, 20, 9, 16, 21],
-            pfPerWeek: [1, 1, 2, 1, 2, 3, 3, 2, 1, 2, 2, 3, 2, 2, 2, 2, 2, 1],
+            opPerWeek: [12, 14, 11, 8, 10, 11, 10, 5, 14, 12, 15, 13, 13, 13, 20, 9, 16, 21, 16],
+            pfPerWeek: [1, 1, 2, 1, 2, 3, 3, 2, 1, 2, 2, 3, 2, 2, 2, 2, 2, 1, 2],
             opponentPerWeek: [1],
-            oppfPerWeek: [6, 3, 6, 1, 2, 2, 2, 2, 3, 6, 15, 7, 2, 2, 8, 0, 10, 9],
-            totalOP: 442
+            oppfPerWeek: [6, 3, 6, 1, 2, 2, 2, 2, 3, 6, 15, 7, 2, 2, 8, 0, 10, 9, 5],
+            totalOP: 471
         },
         playerList: {
             hitters: {
@@ -34,10 +34,10 @@ const rawTeams = [
             } 
         },
         record: {
-            winLoss: [1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1],
-            wins: 12,
+            winLoss: [1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1],
+            wins: 13,
             loss: 6,
-            tiebreak: [0, 4, 3, 2, 3, 0]
+            tiebreak: [0, 4, 3, 2, 3, 1]
         }
     },
     {
@@ -50,109 +50,10 @@ const rawTeams = [
             id: 1
         },
         stats: {
-            opPerWeek: [9, 10, 10, 15, 10, 12, 10, 15, 13, 9, 18, 14, 13, 15, 14, 17, 15, 15],
-            pfPerWeek: [1, 2, 2, 2, 2, 2, 1, 0, 2, 1, 0, 1, 3, 2, 2, 3, 1, 2],
+            opPerWeek: [9, 10, 10, 15, 10, 12, 10, 15, 13, 9, 18, 14, 13, 15, 14, 17, 15, 15, 13],
+            pfPerWeek: [1, 2, 2, 2, 2, 2, 1, 0, 2, 1, 0, 1, 3, 2, 2, 3, 1, 2, 1],
             opponentPerWeek: [0],
-            oppfPerWeek: [4, 2, 4, 9, 1, 0, 4, 10, 8, 2, 7, 3, 1, 5, 5, 2, 9, 3],
-            totalOP: 417
-        },
-        playerList: {
-            hitters: {
-                inField: [],
-                outField: []
-            },
-            pitchers: {
-               startingPitcher: [],
-                reliefPitcher: [] 
-            } 
-        },
-        record: {
-            winLoss: [0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1],
-            wins: 10,
-            loss: 8,
-            tiebreak: [0, 0, 3, 2, 2, 3]
-        }
-    },
-    {
-        profile: {
-            name: "Crazy Cormorants",
-            abbrev: "CC",
-            logo: CrazyCormorants,
-            primaryColor: "navy",
-            secondaryColor: "lavender",
-            id: 2
-        },
-        stats: {
-            opPerWeek: [12, 16, 12, 13, 8, 12, 17, 12, 9, 13, 9, 17, 14, 16, 17, 13, 16, 10],
-            pfPerWeek: [2, 3, 3, 1, 2, 2, 2, 3, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2],
-            opponentPerWeek: [3],
-            oppfPerWeek: [7, 5, 3, 3, 0, 2, 11, 4, 1, 3, 5, 11, 3, 4, 6, 3, 6, 0],
-            totalOP: 442
-        },
-        playerList: {
-            hitters: {
-                inField: [],
-                outField: []
-            },
-            pitchers: {
-               startingPitcher: [],
-                reliefPitcher: [] 
-            } 
-        },
-        record: {
-            winLoss: [1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0],
-            wins: 8,
-            loss: 10,
-            tiebreak: [1, 1, 0, 2, 2, 2]
-        }
-    },
-    {
-        profile: {
-            name: "Slim Aliens",
-            abbrev: "SA",
-            logo: SlimAliens,
-            primaryColor: "black",
-            secondaryColor: "limegreen",
-            id: 3
-        },
-        stats: {
-            opPerWeek: [9, 5, 11, 13, 12, 19, 5, 14, 8, 12, 9, 18, 14, 17, 16, 10, 17, 10],
-            pfPerWeek: [1, 2, 2, 2, 1, 3, 1, 1, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2],
-            opponentPerWeek: [2],
-            oppfPerWeek: [1, 2, 1, 5, 1, 8, 1, 4, 3, 7, 0, 1, 8, 4, 5, 0, 2, 4],
-            totalOP: 426
-        },
-        playerList: {
-            hitters: {
-                inField: [],
-                outField: []
-            },
-            pitchers: {
-               startingPitcher: [],
-                reliefPitcher: [] 
-            } 
-        },
-        record: {
-            winLoss: [0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0],
-            wins: 8,
-            loss: 10,
-            tiebreak: [1, 1, 2, 0, 3, 1]
-        }
-    },
-    {
-        profile: {
-            name: "Lunar Doodles",
-            abbrev: "LD",
-            logo: LunarDoodles,
-            primaryColor: "black",
-            secondaryColor: "#EFD97F",
-            id: 4
-        },
-        stats: {
-            opPerWeek: [8, 9, 10, 15, 14, 10, 11, 14, 10, 12, 18, 16, 18, 13, 11, 12, 13, 20],
-            pfPerWeek: [1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 3, 1, 3, 3, 2, 2, 1, 2],
-            opponentPerWeek: [5],
-            oppfPerWeek: [0, 1, 2, 3, 5, 0, 0, 1, 0, 6, 7, 1, 2, 3, 5, 3, 7, 3],
+            oppfPerWeek: [4, 2, 4, 9, 1, 0, 4, 10, 8, 2, 7, 3, 1, 5, 5, 2, 9, 3, 4],
             totalOP: 437
         },
         playerList: {
@@ -166,27 +67,27 @@ const rawTeams = [
             } 
         },
         record: {
-            winLoss: [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0],
-            wins: 5,
-            loss: 13,
-            tiebreak: [1, 2, 0, 1, 0, 1]
+            winLoss: [0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1],
+            wins: 11,
+            loss: 8,
+            tiebreak: [0, 0, 3, 3, 2, 3]
         }
     },
     {
         profile: {
-            name: "Frozen Acorns",
-            abbrev: "FA",
-            logo: FrozenAcorns,
-            primaryColor: "deeppink",
-            secondaryColor: "#B7FBF8",
-            id: 5
+            name: "Crazy Cormorants",
+            abbrev: "CC",
+            logo: CrazyCormorants,
+            primaryColor: "navy",
+            secondaryColor: "lavender",
+            id: 2
         },
         stats: {
-            opPerWeek: [7, 10, 11, 12, 14, 9, 12, 9, 14, 12, 21, 18, 16, 13, 16, 16, 17, 18],
-            pfPerWeek: [2, 2, 1, 2, 3, 2, 1, 1, 2, 1, 1, 4, 2, 2, 2, 2, 3, 3],
-            opponentPerWeek: [4],
-            oppfPerWeek: [3, 1, 2, 8, 8, 4, 2, 9, 8, 2, 13, 3, 5, 2, 4, 4, 6, 7],
-            totalOP: 457
+            opPerWeek: [12, 16, 12, 13, 8, 12, 17, 12, 9, 13, 9, 17, 14, 16, 17, 13, 16, 10, 14],
+            pfPerWeek: [2, 3, 3, 1, 2, 2, 2, 3, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 2],
+            opponentPerWeek: [3],
+            oppfPerWeek: [7, 5, 3, 3, 0, 2, 11, 4, 1, 3, 5, 11, 3, 4, 6, 3, 6, 0, 3],
+            totalOP: 467
         },
         playerList: {
             hitters: {
@@ -199,9 +100,108 @@ const rawTeams = [
             } 
         },
         record: {
-            winLoss: [1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1],
+            winLoss: [1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0],
+            wins: 8,
+            loss: 11,
+            tiebreak: [1, 1, 0, 2, 2, 2]
+        }
+    },
+    {
+        profile: {
+            name: "Slim Aliens",
+            abbrev: "SA",
+            logo: SlimAliens,
+            primaryColor: "black",
+            secondaryColor: "limegreen",
+            id: 3
+        },
+        stats: {
+            opPerWeek: [9, 5, 11, 13, 12, 19, 5, 14, 8, 12, 9, 18, 14, 17, 16, 10, 17, 10, 9],
+            pfPerWeek: [1, 2, 2, 2, 1, 3, 1, 1, 2, 2, 2, 3, 2, 2, 2, 3, 2, 2, 2],
+            opponentPerWeek: [2],
+            oppfPerWeek: [1, 2, 1, 5, 1, 8, 1, 4, 3, 7, 0, 1, 8, 4, 5, 0, 2, 4, 3],
+            totalOP: 449
+        },
+        playerList: {
+            hitters: {
+                inField: [],
+                outField: []
+            },
+            pitchers: {
+               startingPitcher: [],
+                reliefPitcher: [] 
+            } 
+        },
+        record: {
+            winLoss: [0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+            wins: 8,
+            loss: 11,
+            tiebreak: [1, 1, 2, 0, 3, 1]
+        }
+    },
+    {
+        profile: {
+            name: "Lunar Doodles",
+            abbrev: "LD",
+            logo: LunarDoodles,
+            primaryColor: "black",
+            secondaryColor: "#EFD97F",
+            id: 4
+        },
+        stats: {
+            opPerWeek: [8, 9, 10, 15, 14, 10, 11, 14, 10, 12, 18, 16, 18, 13, 11, 12, 13, 20, 14],
+            pfPerWeek: [1, 2, 1, 2, 2, 1, 2, 2, 1, 2, 3, 1, 3, 3, 2, 2, 1, 2, 2],
+            opponentPerWeek: [5],
+            oppfPerWeek: [0, 1, 2, 3, 5, 0, 0, 1, 0, 6, 7, 1, 2, 3, 5, 3, 7, 3, 5],
+            totalOP: 461
+        },
+        playerList: {
+            hitters: {
+                inField: [],
+                outField: []
+            },
+            pitchers: {
+               startingPitcher: [],
+                reliefPitcher: [] 
+            } 
+        },
+        record: {
+            winLoss: [0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1],
+            wins: 6,
+            loss: 13,
+            tiebreak: [1, 2, 1, 1, 0, 1]
+        }
+    },
+    {
+        profile: {
+            name: "Frozen Acorns",
+            abbrev: "FA",
+            logo: FrozenAcorns,
+            primaryColor: "deeppink",
+            secondaryColor: "#B7FBF8",
+            id: 5
+        },
+        stats: {
+            opPerWeek: [7, 10, 11, 12, 14, 9, 12, 9, 14, 12, 21, 18, 16, 13, 16, 16, 17, 18, 14],
+            pfPerWeek: [2, 2, 1, 2, 3, 2, 1, 1, 2, 1, 1, 4, 2, 2, 2, 2, 3, 3, 2],
+            opponentPerWeek: [4],
+            oppfPerWeek: [3, 1, 2, 8, 8, 4, 2, 9, 8, 2, 13, 3, 5, 2, 4, 4, 6, 7, 4],
+            totalOP: 484
+        },
+        playerList: {
+            hitters: {
+                inField: [],
+                outField: []
+            },
+            pitchers: {
+               startingPitcher: [],
+                reliefPitcher: [] 
+            } 
+        },
+        record: {
+            winLoss: [1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0],
             wins: 11,
-            loss: 7,
+            loss: 8,
             tiebreak: [3, 0, 2, 3, 3, 0]
         }
     },
