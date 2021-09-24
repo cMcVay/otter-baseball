@@ -1,6 +1,6 @@
 import Players from "./Player";
 
-const Leaders = [...Players].filter(player => (player.stats.games > 5));
+const Leaders = [...Players].filter(player => (player.stats.games > 10));
 const PitchingLeaders = [...Leaders].filter(player => (player.profile.posGroup === "SP"));
 const ReliefPitchingLeaders = [...Leaders].filter(player => (player.profile.posGroup === "RP"));
 
