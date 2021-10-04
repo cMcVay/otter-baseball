@@ -1,0 +1,566 @@
+nav {
+  background-color: navy;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rancho', cursive;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.nav-links li {
+  border: solid white 2px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.nav-links li:hover {
+  background: gray;
+}
+
+.nav-links li:active {
+  background: black;
+}
+
+#mainSiteTitle {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 34px;
+  padding-top: 10px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 22px;
+  padding: 4px;
+}
+h4 {
+  font-size: 18px;
+  padding: 2px;
+}
+
+.App {
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mainLine {
+  background: navy;
+  border-radius: 5px;
+  margin: 25px auto;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+.mainLine td {
+  border-radius: 5px;
+  padding: 8px;
+  background: lightblue;
+  font-size: 14px;
+}
+.mainLine th {
+  color: white;
+}
+
+.logo-small {
+  width: 20px;
+}
+.logo-medium {
+  width: 40px;
+}
+.logo-large {
+  width: 100px;
+}
+
+.statScore {
+  background: navy;
+  margin: 10px auto;
+  border-radius: 5px;
+  border-collapse: separate;
+  border-spacing: 2px;
+  width: 340px;
+}
+.statScore td {
+  background: lightblue;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 2px;
+}
+.statScore th {
+  color: white;
+}
+.statScore td:nth-child(1) {
+  text-align: left;
+  font-weight: 600;
+}
+.statScore td:nth-child(5) {
+  text-align: center;
+  font-weight: 600;
+  background-color: lightskyblue;
+}
+.secondHead td {
+  color: white;
+  background: navy;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: black;
+}
+
+.scoringPeriodContainer {
+  margin: 2px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.matchUpBox {
+  background: navy;
+  border-radius: 5px;
+  border-collapse: separate;
+  border-spacing: 2px;
+  width: 200px;
+  margin: 4px;
+}
+.matchUpBox td {
+  background: lightblue;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+@media only screen and (min-width: 530px) {
+  .scoringPeriodContainer {
+    flex-direction: row;
+  }
+  .statScore {
+    margin: 5px 15px;
+  }
+  .statBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Rules {
+    width: 500px;
+  }
+  .Rules h1 {
+    font-size: 44px;
+  }
+  .Rules h2 {
+    font-size: 36px;
+  }
+  h1 {
+    font-size: 44px;
+    padding-top: 10px
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 34px;
+    padding: 4px;
+  }
+  h4 {
+    font-size: 24px;
+    padding: 2px;
+  }
+  #mainSiteTitle {
+    font-size: 38px;
+  }
+}
+
+.teamHistoryGrid {
+  display: grid;
+  width: 350px;
+  background: navy;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 2px solid black;
+  grid-template-columns: 80px 120px 1fr 1fr;
+  grid-template-rows: 50px 50px 50px 50px;
+  column-gap: 5px;
+  row-gap: 5px;
+  grid-template-areas: 
+  "reg overall ha pa"
+  "reg overall mvp cy"
+  "post allstar asmvp hrking"
+  "post postplay opt1 opt2";
+}
+
+.item-a {
+  grid-area: reg;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-b {
+  grid-area: post;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-c {
+  grid-area: pa;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-d {
+  grid-area: ha;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-e {
+  grid-area: allstar;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-f {
+  grid-area: mvp;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-g {
+  grid-area: cy;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-h {
+  grid-area: hrking;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-i {
+  grid-area: asmvp;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-j {
+  grid-area: postplay;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-k {
+  grid-area: opt1;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.item-l {
+  grid-area: opt2;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.teamHistoryName {
+  grid-area: overall;
+  background: lightblue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamHistoryName h2 {
+  font-size: 20px;
+}
+
+.teamHistoryGrid p {
+  font-size: 12px;
+}
+  
+/* 
+.App {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+head {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 650px) {
+  .statBoxes {
+    flex-direction: row;
+  }
+  #mainSiteTitle {
+    display: inline;
+    padding-left: .5rem;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+    overflow: hidden;
+  }
+}
+
+
+@media only screen and (max-width: 650px) {
+  .App {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    padding: .5rem 0;
+  }
+  h2 {
+    font-size: 1.25rem;
+    padding: .5rem 0;
+  }
+  h3 {
+    font-size: 1.15rem;
+    padding: .5rem 0;
+  }
+  h4 {
+    font-size: 1.05rem;
+    padding: .5rem 0;
+  }
+  .statBoxes {
+    flex-direction: column;
+    width: 100%;
+  }
+  .scoringPeriodContainer {
+    flex-direction: column;
+  }
+  .statScore {
+    width: 100%;
+  };
+  html {
+    width: 100%;
+  }
+  #mainSiteTitle {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    background: navy;
+    position: absolute;
+    top: 10vh;
+    padding: 35px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rancho', cursive;
+}
+
+h1 {
+  font-size: 2.88rem;
+  font-weight: 800;
+  padding: .75rem 0;
+}
+
+h2 {
+  font-size: 2.50rem;
+  font-weight: 500;
+  padding: .5rem 0;
+}
+
+h3 {
+  font-size: 1.88rem;
+  font-weight: 500;
+  padding: .5rem 0;
+}
+
+h4 {
+  font-size: 1.50rem;
+  font-weight: 500;
+  padding: .5rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: navy;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+.statScore {
+  background: navy;
+  color: white;
+  margin: 1rem;
+  border-radius: .8rem;
+  empty-cells: hide;
+  border-spacing: .2rem;
+  border-collapse: separate;
+  font-weight: 700;
+}
+
+.statScore td {
+  background: lightblue;
+  border-radius: .8rem;
+  color: black;
+  padding: .8rem;
+}
+
+.statScore th {
+  background: navy;
+  border-radius: 5px;
+}
+
+.statScore td:nth-child(1), td:nth-child(3) {
+  text-align: left;
+}
+
+.secondHead td {
+  background: navy;
+  color: white;
+}
+
+.statBoxes {
+  display: flex;
+  justify-content: center;
+}
+
+.mainLine {
+  margin: auto;
+  border-radius: .8rem;
+  background: navy;
+  color: white;
+  border-collapse: separate;
+  border-spacing: .2rem;
+}
+.mainLine td {
+  background: lightblue;
+  color: black;
+  font-weight: 700;
+  border-radius: .8rem;
+  padding: .8rem;
+}
+
+.matchUpBox {
+  background: navy;
+  margin: 1rem;
+  border-collapse: separate;
+  border-spacing: .2rem;
+  border-radius: .8rem;
+  width: 13.9rem;
+}
+
+.matchUpBox td {
+  background: lightblue;
+  color: black;
+  font-weight: 700;
+  border-radius: .8rem;
+  padding: .8rem;
+}
+
+.scoringPeriodContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-small {
+  width: 20px;
+}
+
+.logo-medium {
+  width: 40px;
+  padding-left: 2rem;
+}
+
+.logo-large {
+  width: 100px;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: black;
+}
+*/
+.Rules {
+  margin: 10px auto 50px auto;
+  text-align: left;
+}
+
+.Rules h1, .Rules h2, .Rules h3, .Rules h4 {
+  text-align: center;
+  font-weight: 900;
+}
+.Rules li {
+  padding-left: 1rem;
+}
+.Rules p {
+  padding-bottom: .5rem;
+}
+.Rules p b {
+  font-weight: 700;
+}
