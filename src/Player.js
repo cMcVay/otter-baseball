@@ -1,7 +1,7 @@
 const rawPlayers = [
     {
         profile: {
-            name: "Test Lindor",
+            name: "Francisco Lindor",
             pos: "2B",
             posGroup: "IF",
             MLBteam: "New York Mets",
