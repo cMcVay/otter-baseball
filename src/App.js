@@ -40,7 +40,7 @@ const Home = () => {
   return(
     <div>
       <h1>Home</h1>
-      <h4>Through 9/29/2021</h4>
+      <h4>WORLD SERIES: Megabytes vs Manatees (10/13/21)</h4>
       {BoxScore(20)}
     </div>
   )}
