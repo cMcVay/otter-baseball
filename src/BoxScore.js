@@ -1,7 +1,7 @@
 
 import LeagueSchedule from "./LeagueSchedule";
 import {teams, getName, getBatStats, getPitchStats, getLT, getOP, getPF} from "./Teams";
-import {getPitchFactor, getOPSum} from "./StatCalculators";
+import {getOPSum} from "./StatCalculators";
 import {getPrimaryColor, getSecondaryColor} from "./getColor";
 import {getWeekLine, getPWeekLine} from "./getWeekLine";
 import {Link} from "react-router-dom";
@@ -78,7 +78,7 @@ const BoxScore = (period, teamA) => {
                                         <tr>
                                             <td colSpan="3" style={{visibility: "hidden"}}></td>
                                             <td>{getOPSum(getPitchStats(teams, game.Away, period), period)}</td>
-                                            <td>{getPitchFactor(getOPSum(getPitchStats(teams, game.Away, period), period))} PF</td>
+                                            <td>{getPF(teams, game.Away, period)} PF</td>
                                         </tr>
                             </tbody>
                         </table>
@@ -114,7 +114,7 @@ const BoxScore = (period, teamA) => {
                                         <tr>
                                             <td colSpan="3"  style={{visibility: "hidden"}}></td>
                                             <td>{getOPSum(getPitchStats(teams, game.Home, period), period)}</td>
-                                            <td>{getPitchFactor(getOPSum(getPitchStats(teams, game.Home, period), period))} PF</td>
+                                            <td>{getPF(teams, game.Home, period)} PF</td>
                                         </tr>
                             </tbody>
                         </table>

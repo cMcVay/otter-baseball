@@ -339,6 +339,15 @@ const LeagueSchedule = [
             }
         ]
     },
+    {
+        week: "Championship",
+        matchUp: [
+            {
+                Away: 1,
+                Home: 0
+            }
+        ]
+    },
 ];
 
 export default LeagueSchedule;
